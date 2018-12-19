@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="968.0" style="-fx-background-color: rgb(235, 242, 249);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TextField layoutX="363.0" layoutY="315.0" prefHeight="52.0" prefWidth="276.0" />
+        <PasswordField layoutX="363.0" layoutY="399.0" prefHeight="52.0" prefWidth="276.0" />
+        <Label alignment="CENTER" AnchorPane.leftAnchor="200" AnchorPane.topAnchor="300" prefHeight="52.0" prefWidth="96.0" text="账号" textFill="#2786e4">
+            <font>
+                <Font size="20.0" />
+            </font></Label>
+        <Label alignment="CENTER" AnchorPane.leftAnchor="200" AnchorPane.topAnchor="400" prefHeight="52.0" prefWidth="96.0" text="密码" textFill="#2786e4">
+            <font>
+                <Font size="20.0" />
+            </font></Label>
+        <Button layoutX="363.0" layoutY="493.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="276.0" style="-fx-background-color: rgb(0, 163, 255);" text="登   录" textFill="WHITE" />
+        <ImageView fitHeight="285.0" fitWidth="968.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="/img/1.jpg" />
+            </image>
+        </ImageView>
+        <Label AnchorPane.rightAnchor="20"  AnchorPane.topAnchor="180" prefHeight="52.0" prefWidth="289.0" text="木远超市管理系统" textFill="#00a3ff">
+            <font>
+                <Font name="System Bold" size="36.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
